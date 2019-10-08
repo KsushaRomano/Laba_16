@@ -1,4 +1,4 @@
-﻿using namespace std;
+using namespace std;
 
 #include <iostream>
 
@@ -30,6 +30,7 @@ int main()
 		};
 		k = 1;
 	};
+	cout << "Размер полученного массива: " << n << endl;
 	cout << "Измененный массив: " << endl;
 	for (m = 0; m < n; m++) {
 		cout << B[m] << endl;
