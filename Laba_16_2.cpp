@@ -35,4 +35,6 @@ int main()
 	for (m = 0; m < n; m++) {
 		cout << B[m] << endl;
 	};
+	delete[] A;
+	return 0;
 }
