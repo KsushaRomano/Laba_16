@@ -42,4 +42,6 @@ int main()
 	for (i = 0; i < N + k; i++) {
 		cout << B[i] << endl;
 	};
+	delete[] A;
+	return 0;
 }
