@@ -27,4 +27,6 @@ int main()
 	for (k = 0; k < n; k++) {
 		cout << B[k] << endl;
 	};
+	delete[] A;
+	return 0;
 }
